@@ -3,6 +3,7 @@ import math
 from PIL import ImageTk, Image
 import tkinter as tk
 
+
 # function to calculate the side lengths and angles
 def get_sidesandangles():
     global s1, s2, s3, a1, a2
@@ -208,7 +209,8 @@ ins1 = tk.Label(
     font=('Arial', 12)
 )
 ins2 = tk.Label(
-    text="2. Click the button to use the entered values to find the missing ones.",
+    text="2. Click the button to use the entered \
+values to find the missing ones.",
     bg='#2b2b2b',
     fg='#fafafa',
     font=('Arial', 12)
